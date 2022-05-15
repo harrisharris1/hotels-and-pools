@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { SearchContext } from '../../store/SearchContext';
-import Room from '../Room/index';
+import Room from '../Hotels/index';
 
-function Rooms() {
+function Hotels() {
     const [data] = useContext(SearchContext);
     const [rooms, setRooms] = useState([]);
 
@@ -25,4 +25,4 @@ function Rooms() {
     )
 }
 
-export default Rooms
+export default Hotels

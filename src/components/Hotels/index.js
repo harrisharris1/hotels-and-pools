@@ -36,11 +36,11 @@ function Room({ info, selected }) {
                     <div className='price'>
                         {discount > 0 && (
                             <>
-                                <div className='font-weight-normal text-right'><small>€ <del>{price}</del></small></div>
+                                <div className='font-weight-normal text-right'><small>$<del>{price}</del></small></div>
                                 <div>{(price - discount / 100 * price).toFixed(2)}</div>
                             </>
                         )}
-                        {!discount && <span>€ {price}</span>}
+                        {!discount && <span>$ {price}</span>}
                     </div>
                 </div>
             </div>

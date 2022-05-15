@@ -11,9 +11,9 @@ let defaultData = {
     checkout: formatDateISO(tomorrow),
     adults: 2,
     children: 0,
-    currency_code: 'EUR',
-    currency_symbol: '€',
-    current_hotel: 'cocos',
+    currency_code: 'US',
+    currency_symbol: '$',
+    current_hotel: '',
     room: {
     },
     extra: [

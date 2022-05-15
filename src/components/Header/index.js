@@ -17,26 +17,17 @@ function Header() {
         <header className='header'>
             <nav className='container d-flex align-items-center justify-content-center py-3 nav'>
                 <NavLink to='/' className='mobile-nav'>
-                    <img src='/images/logo_mobile.png' alt='Cocos' height='36' />
+                    <img/>
                 </NavLink>
                 <div className={`menu ${showClass}`}>
                     <NavLink to='/' exact>
                         Home
                     </NavLink>
                     <NavLink to='/'>
-                        Rooms
+                        Hotels
                     </NavLink>
                     <NavLink to='/'>
-                        Restaurant
-                    </NavLink>
-                    <NavLink to='/'>
-                        <img src='/images/logo.png' className='logo' alt='Cocos' />
-                    </NavLink>
-                    <NavLink to='/'>
-                        Weddings
-                    </NavLink>
-                    <NavLink to='/'>
-                        Membership
+                        <img />
                     </NavLink>
                     <NavLink to='/'>
                         Contact
